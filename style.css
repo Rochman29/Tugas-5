@@ -30,6 +30,10 @@
   margin-top: 50px;
   margin-left: 100px;
 }
+.bagan-5 {
+  margin-top: 45px;
+  margin-left: 500px;
+}
 .container-bagan-3 {
   display: flex;
   flex-direction: column;
@@ -50,11 +54,36 @@
 .h-empat {
   color: #979797;
 }
-.button1 {
-  width: 130px;
+.div-btn {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
 }
-.button2 {
-  width: 130px;
+.button1 {
+  color: white;
+  background-color: rgb(0, 255, 200);
+  border-color: rgb(0, 255, 200);
+  border-radius: 0px;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button0 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  background-color: white;
+  border-color: rgb(0, 255, 200);
+  border-radius: 0px;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  font-size: 25px;
 }
 .border1 {
   width: 500px;
@@ -77,4 +106,13 @@ table tr th {
   color: #979797;
   margin-top: 20px;
   margin-left: -15px;
+}
+.div-service {
+  display: flex;
+  justify-content: space-between;
+  padding: 5rem;
+  padding-bottom: ;
+}
+.grid1 {
+  gap: 5rem;
 }
